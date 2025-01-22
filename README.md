@@ -1,2 +1,2 @@
-# sqs
+# AWS SQS
 AWS SQS

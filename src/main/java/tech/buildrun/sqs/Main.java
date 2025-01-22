@@ -11,7 +11,7 @@ import java.util.Objects;
 @SpringBootApplication
 public class Main implements CommandLineRunner {
 
-    public static final String QUEUE_URL =
+    private static final String QUEUE_URL =
             "https://localhost.localstack.cloud:4566/000000000000/minha-fila";
 
     private final SqsTemplate sqsTemplate;
